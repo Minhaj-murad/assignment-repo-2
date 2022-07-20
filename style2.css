@@ -1,0 +1,216 @@
+/* first-section starts */
+.first-section{
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    
+}
+.left-side{
+    margin-top: 80px;
+    margin-left: 106px;
+    margin-bottom: 111px;
+    width: 531px;
+    height: 424px;
+}
+.heading1{  
+   width: 531px;
+   height: 240px;
+}
+ .left-heading
+   {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.p1{
+ margin-top: 40px;
+    width: 506px;
+    height: 78px;
+}
+.left-para{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.button1{
+    margin-top: 40px;
+}
+.left-button{
+    width: 227px;
+    height: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+.right-side{
+
+    background-image: url(assets/messi.png);
+    background-repeat: no-repeat;
+    width: 681px;
+    height: 613px;
+    margin-top: 92px;
+    margin-bottom: 0;
+    margin-left: 150px;
+    padding-left: 60px;
+}
+
+/* second section styles
+ */
+
+ .left-2{
+    width: 312px;
+    height: 412px;
+    background: #161616;
+    border-radius: 10px;
+    margin-top: 130px;
+      
+ }
+ .left-button-2, .left-button-3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 252px;
+    height: 64px;
+    margin: 30px;
+    font-size: 20px;
+ }
+ .left-button-2{
+
+    background-color: rgb(250, 50, 0);
+ }
+
+
+
+/* section2
+ */
+
+.second-section{
+    display: flex;
+    margin-left: 80px;
+    
+}
+
+
+ /* ------
+ grid-cart-section
+  ----*/
+.carts{
+    margin-left: 24px;
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+.cart{
+    width: 312px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+  .cart-top{
+    width: 312px;
+    height: 175px;
+    background: url(assets/Blog\ Image.png);
+    border-radius: 10px 10px 0px 0px;
+  }
+  .transfer{
+    width: 100px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .cart-body-2{
+    width: 272px;
+    height: 54px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+ .card-head{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #161616;
+ }
+.cart-body-3{
+    width: 143px;
+    height: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: rgba(22, 22, 22, 0.7);
+   
+}
+.clock{
+    margin-left: 8px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 100px;
+    background-color: black ;
+    height: 400px;
+}
+.footer-head{
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+
+}
+.underline{
+    margin-top: 50px;
+    width: 1320px;
+    height: 0px;
+    color: aliceblue;
+    margin-left: 80px;
+}
+.footer-end-style{
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 20px;
+     color: #B9B9B9; 
+}
+.footer-menus{
+    margin-top: 100px;
+    width: 898px;
+    height: 40px;
+    margin-left: 255px;
+    
+}
