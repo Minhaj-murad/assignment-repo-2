@@ -170,46 +170,54 @@
     margin-top: 40px;
     text-align: center;
  }
-
-  /* footer styles */
-footer {
-    margin-top: 100px;
-    background-color: black ;
-    height: 400px;
-}
-.fhead{
-    padding-top: 50px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    color: aliceblue;
-    text-align: center;
-
-}
-.underline{
-    margin-top: 50px;
-    width: 1200px;
-    height: 0px;
-    color: aliceblue;
-    margin-left: 80px;
-}
-.fmenu{
-     font-family: 'Poppins', sans-serif;
-     text-decoration: none;
-     width: 100px;
-     font-weight: 500;
-     font-size: 20px;
-     color: #B9B9B9; 
-}
  
+/* footer styles */
+
+  
+ .foot{
+    background-color: black;
+    height: 500px;
+ }
+ .foot-head{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    color: whitesmoke;
+    text-align: center;
+ }
+ hr{
+    margin-top: 60px;
+    width: 70%;
+ }
+ .menu{
+  margin-left: 200px;
+  margin-right: 120px;
+  margin-top: 95px;
+  width: 1063px;
+  height: 60px;
+  text-align: center;
+  
+
+ }
+  .menus{
+    margin-left: 20px;
+    margin-top: 40px;
+  justify-content: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255) ;
+  margin-right: 15px;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+ }
+
     
 
 /*   --------------------------
           media Queries
        --------------------  */
        /* mobile devices    */
-       @media only screen and (max-width: 688px)
+    @media only screen and (max-width: 688px)
        {
         .container-1{
             background-color: #000000;
@@ -308,20 +316,51 @@ footer {
             margin-left: 10px;
             margin-top: 5px;
          }
-         footer{
-            width: 411px;
-            height: 731px;
-         }
-          .underline, .footer-menus{
-            width: 311px;
-            margin-left: 60px;
-         }
-         .footer-menus{
-            display: block;
-         }
-          .extra-button{
-            display: none;
-          }
+               
+      .foot {
+       width: 668px;
+       background-color: rgb(12, 1, 73);
+       height: 700px;
+       }
+      .headf{
+      margin-left: -10px;
+      width: 408px;
+      height: 60px;
+      padding-bottom: 40px;
+      }
+      hr{
+        
+        margin-left: 15px;
+     }
+    .foot-head{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    color: whitesmoke;
+    text-align: center;
+ }
+   hr{
+    margin-top: 60px;
+    width: 50%;
+  }
+   .menu{
+    margin-left: -340px;
+    text-align: center;
+    display: list-item;
+  
+
+ }
+    .menus{
+        
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255) ;
+    margin-right: 15px;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+   }
         }
 
     /* -------------------
@@ -332,7 +371,7 @@ footer {
         .first-section{
             width: 688px;
             height: 635px;
-            background: #4e4141;
+            background: #020014;
             border-radius: 30px;
             display: flex;
             margin-left: 40px;
@@ -356,7 +395,7 @@ footer {
          font-family: 'Poppins', sans-serif;
          font-weight: 400;
          font-size: 50px;
-         color: #000000;
+         color: #bbbbbb;
          
         }
         .p1{ margin-top: 50px;
@@ -367,7 +406,7 @@ footer {
             font-family: 'Poppins', sans-serif;
             font-weight: 400;
             font-size: 16px;
-            color: #000000;
+            color: #bbbbbb;
         }
         .button1{
             margin-top: 100px;
@@ -422,6 +461,32 @@ footer {
             margin-top: 40px;
             text-align: center;
          }
+         .foot-head{
+            font-size: 60px;
+            font-family: 'Poppins', sans-serif;
+            padding-top: 40px;
+            color: rgb(165, 159, 159);
+            text-align: center;
+         }
+         .menu{
+            width: 800px;
+            margin-left: 0px;
+            text-align: center;
+            display: list-item;
+          
+        
+         }
+            .menus{
+            margin-top: 40px;
+            text-decoration: none;
+            color: rgb(165, 159, 159) ;
+            margin-right: 15px;
+            font-size: 20px;
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif;
+           }
+
+         
      }
      /* extra button option */
      @media only screen and (min-width:992px)
